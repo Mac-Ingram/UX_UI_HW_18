@@ -1,0 +1,51 @@
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.logo {
+    width: 23%;
+    padding: 1%;
+    text-align: center;
+}
+
+nav {
+    width: 0;
+    padding: 1%;
+}
+
+ul {
+    width: 50%;
+    margin-left: auto;
+}
+
+#profile {
+    justify-content: flex-end;
+}
+
+.herolmg {
+    height: 600px;
+    padding: 25px;
+}
+
+.content {
+    width: 500px;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #373738;
+    padding: 15px;
+}
+
+.footerlist {
+    vertical-align: top;
+    padding: 25px;
+}
+
+button {
+    background-color: #73F5AD;
+    text-decoration-color: #434343;
+    border-radius: 20px;
+    width: 260px;
+}
