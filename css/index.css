@@ -1,8 +1,15 @@
 .inline-block {
-    display: inline-block;
+    display: flex;
+    flex-direction:row;
     vertical-align: top;
+    font-family: 'Lato', sans-serif;
 }
 
+.hello {
+    font-family: 'Lato', sans-serif;
+    font-size: 125px;
+    font-style: italic;
+}
 .logo {
     width: 23%;
     padding: 1%;
@@ -19,6 +26,8 @@ ul {
     margin-left: auto;
 }
 
+}
+
 #profile {
     justify-content: flex-end;
 }
@@ -29,8 +38,10 @@ ul {
 }
 
 .content {
-    width: 500px;
+    width: 705px;
+    height: 232px;
     margin: 0 auto;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 footer {
@@ -41,6 +52,7 @@ footer {
 .footerlist {
     vertical-align: top;
     padding: 25px;
+    color: #73F5AD;
 }
 
 button {
@@ -48,4 +60,55 @@ button {
     text-decoration-color: #434343;
     border-radius: 20px;
     width: 260px;
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+}
+
+.flexContainer {
+    display:flex;
+    width: 33%;
+    flex-direction:row;
+}
+
+
+h4 {
+    font-family: 'Lato', sans-serif;
+    color: #73F5AD;
+    font-size: 48px;
+
+}
+
+.container {
+    background-color: #434343;
+    border-radius: 30px;
+    width: 1196px;
+    padding-top: 20px;
+    
+}
+
+.projecttext {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #ffffff;
+    font-weight: lighter;
+    font-size: 24px;
+}
+
+.sectionheader {
+    font-family: 'Lato', sans-serif;
+    font-size: 96px;
+    font-weight: bolder;
+    font-style: italic;
+    text-align: center;
+    
+}
+
+.workGrid {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    padding-bottom: 100px;
+    justify-content: space-around;
+}
+
+@media only screen and (max-width: 600){
+    
 }
